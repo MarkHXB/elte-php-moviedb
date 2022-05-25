@@ -1,0 +1,29 @@
+Feladat:
+egy olyan webes alkalmazás, ahol követni tudjuk a sorozatnézési folyamatot
+
+Előkészületek
+adatok (json):
+series.json         -> létező sorozatok
+episode.json        -> létező rész a sorikból
+users.json          -> felhasználók
+seen_episodes.json  -> már megtekintett epizódok száma
+!!
+Töltsem fel ezeket a json-okat adatokkal mielőtt beküldöm
+!!
+!!
+Kell egy admin felhasználó
+!!
+
+Főoldal
++főoldal -> ezt bárki elérheti bejelentkezés nélkül is
+-Az oldalon legyenek kilistázva a rendszerben létező sorozatok.
+-A listaoldalon, avagy a főoldalon statikus szöveggel jelenjen meg egy kreatív cím és egy rövid ismertetés az oldalról.
+-mindegyik sorihoz tartozzon egy jump link a részletező oldalára
+
+Mi érhető el innen:
+* Kilistázott sorozatok jumpere
+* Bejelentkező és regisztrációs oldal, ha be van valaki jelentkezve a regisztráció rész nem Kell
+* 
+
+Részletező oldal
+-A részletező oldalon jelenjenek meg az adott sorozathoz kapcsolódó információk, pl. címe, első sugárzás éve, epizódok száma, leírása, stb.

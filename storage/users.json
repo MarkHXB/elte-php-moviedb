@@ -1,0 +1,26 @@
+{
+    "1":
+    {
+        "id":"userid1",
+        "username":"user1",
+        "email":"email1",
+        "watched" : [
+            {
+                "series1":2,
+                "series2":1
+            }
+        ]        
+    },
+    "2":
+    {
+        "id":"userid2",
+        "username":"user2",
+        "email":"email2",
+        "watched" : [
+            {
+                "series1":1,
+                "series2":6
+            }
+        ]        
+    }
+}
