@@ -1,29 +1,30 @@
 {
-    "6270ef88106b1": {
-        "username": "b4tm4n",
-        "password": "$2y$10$sEvG6GsCcpn7ohJkvBvCZelitycKYFDBxeMEuxF28z.2BeckjsigK",
-        "fullname": "Bruce Wayne",
+    "628fb16f9bf5c": {
+        "username": "username12",
+        "password": "$2y$10$lscnGb.KSFGMNbWmYMYg..8yY8J7shI54qE7Sv3dJKPbjtaQcR3GO",
+        "fullname": null,
         "roles": [
             "user"
         ],
-        "id": "6270ef88106b1"
+        "id": "628fb16f9bf5c"
     },
-    "6270fbb54c09d": {
-        "username": "r0b1n1",
-        "password": "$2y$10$zHhNI\/s47N9KG2VlEtEYN.Tu.MvZK.2hUmxmaILIRdht0USOhJssS",
-        "fullname": "Robin",
+    "628feb1da6b21": {
+        "username": "mark",
+        "password": "$2y$10$FWH\/DHbFrksU4C1l\/8xeruq2LULvtvWI3KjhtyT5U7kQ.HqcAO7Bi",
+        "fullname": null,
         "roles": [
             "user"
         ],
-        "id": "6270fbb54c09d"
+        "id": "628feb1da6b21"
     },
-    "627a330a65b97": {
-        "username": "bucsi0",
-        "password": "$2y$10$b2xH9Bflgnpqrp3vzS16PuLwYL9GMld88RaVKudoX0N0gsLpBhVdS",
-        "fullname": "BUCSI0",
+    "628febc247606": {
+        "username": "admin",
+        "password": "$2y$10$LmRGQqvs6n78\/cEaWNLLo.rhpNcBB7bTmIpQ31IZqxjwNSQf60g3O",
+        "fullname": null,
         "roles": [
+            "admin",
             "user"
         ],
-        "id": "627a330a65b97"
+        "id": "628febc247606"
     }
 }
