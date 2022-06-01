@@ -70,6 +70,7 @@ class Storage implements IStorage
     {
         $this->contents[$id] = $record;
     }
+    
 
     public function delete(string $id)
     {

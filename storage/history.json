@@ -1,0 +1,27 @@
+{
+    "62972bb4ba92b": {
+        "series": {
+            "1": {
+                "serie_id": "1",
+                "episodes": [
+                    "6291f5e12247e",
+                    "6291f6c829040",
+                    "6291f87e2c8d1"
+                ]
+            },
+            "62925f49c1edc": {
+                "serie_id": "62925f49c1edc",
+                "episodes": [
+                    "62925ffa5e2a3"
+                ]
+            },
+            "629784cfeff98": {
+                "serie_id": "629784cfeff98",
+                "episodes": [
+                    "62978a0e8cdc0"
+                ]
+            }
+        },
+        "user_id": "62972bb4ba92b"
+    }
+}

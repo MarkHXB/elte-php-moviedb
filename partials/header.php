@@ -12,7 +12,7 @@ require_once('_init.php');
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Főoldal <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/index.php">Főoldal <span class="sr-only">(current)</span></a>
                 </li>
                 <?php if ($auth->authorize(["admin"])) : ?>
                     <li class="nav-item">

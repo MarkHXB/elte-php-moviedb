@@ -14,64 +14,118 @@ class Series
         }
     }
 
-    public function register($data)
+    public function getAll()
     {
-        $user = [
-            'username'  => $data['username'],
-            'password'  => password_hash($data['password'], PASSWORD_DEFAULT),
-            'fullname'  => $data['fullname'],
-            "roles"     => ["user"],
-        ];
-        return $this->user_storage->add($user);
+        return $this->series_storage->findAll();
     }
 
-    public function user_exists($username)
+    public function getSerieById($id)
     {
-        $users = $this->user_storage->findOne(['username' => $username]);
-        return !is_null($users);
+        return $this->series_storage->findById($id);
     }
 
-    public function authenticate($username, $password)
-    {
-        $users = $this->user_storage->findMany(function ($user) use ($username, $password) {
-            return $user["username"] === $username &&
-                password_verify($password, $user["password"]);
-        });
-        return count($users) === 1 ? array_shift($users) : NULL;
-    }
-
-    public function is_authenticated()
-    {
-        return !is_null($this->user);
-    }
-
-    public function authorize($roles = [])
-    {
-        if (!$this->is_authenticated()) {
-            return FALSE;
+    public function getSeriesById($ids){
+        $series = [];
+        foreach($this->series_storage->findAll() as $serie){
+            foreach($ids as $val){
+                if($val === $serie['id']) $series[]=$serie;
+            }  
         }
-        foreach ($roles as $role) {
-            if (in_array($role, $this->user["roles"])) {
-                return TRUE;
+        return $series;
+    }
+
+    public function getNotStartedSeries($started_series){
+        $series = [];
+
+        foreach($this->series_storage->findAll() as $serie){
+            $isIn = false;
+            foreach($started_series as $s_serie){
+                if($s_serie['id'] === $serie['id']) $isIn = true;
+            }
+            if(!$isIn){
+                $series []= $serie;
             }
         }
-        return FALSE;
+
+        return $series;
     }
 
-    public function login($user)
+    public function getEpisodeById($s_id, $e_id)
     {
-        $this->user = $user;
-        $_SESSION["user"] = $user;
+        $found_serie = $this->getSerieById($s_id);
+            foreach ($found_serie['episodes'] as $episode) {
+                if ($episode['id'] === $e_id) {
+                    return $episode;
+                }
+            }
+        return null;
     }
 
-    public function logout()
-    {
-        $this->user = NULL;
-        unset($_SESSION["user"]);
+    public function getTheRecentEpisodeDate($serie){
+        $current = null;
+        $max = 0;
+        foreach ($serie['episodes'] as $episode) {
+            if ($max < strtotime($episode['year'])) {
+                $max = strtotime($episode['year']);
+                $current = $episode['year'];
+            }
+        }
+        return $current;
     }
 
-    public function authenticated_user()
+    public function getTheMostPopularRating($serie){
+        $max = 0;
+        foreach($serie['episodes'] as $episode){
+            if($max < $episode['rating']){
+                $max = $episode['rating'];
+            }
+        }
+        return $max;
+    }
+
+    public function getLastFiveAddedSeries()
     {
-        return $this->user;
+        return ksort($this->series);
+    }
+
+    public function updateSerie($id, $data)
+    {
+        $this->series_storage->update($id, $data);
+    }
+
+    public function updateEpisode($s_id, $data)
+    {
+        $selected_series = $this->series_storage->findById($s_id);
+        $selected_series['episodes'][$data['id']] = $data;
+        $this->updateSerie($s_id,$selected_series);
+    }
+
+    public function deleteSeries($id)
+    {
+        $this->series_storage->delete($id);
+    }
+
+    public function serieExist($title){
+        $series = $this->series_storage->findOne(['title' => $title]);
+        return !is_null($series);
+    }
+
+    public function addSerie($data){
+        $this->series_storage->add($data);
+    }
+
+    public function addEpisodeToSerie($s_id, $data)
+    {
+        $selected_series = $this->series_storage->findById($s_id);
+        $id = uniqid();
+        $data['id'] = $id;
+        $selected_series['episodes'][$id] = $data;
+        $this->updateSerie($s_id, $selected_series);
+    }
+
+    public function deleteEpisode($s_id, $e_id)
+    {
+        $selected_series = $this->series_storage->findById($s_id);
+        //TODO
     }
 }

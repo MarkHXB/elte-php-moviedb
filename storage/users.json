@@ -1,30 +1,12 @@
 {
-    "628fb16f9bf5c": {
-        "username": "username12",
-        "password": "$2y$10$lscnGb.KSFGMNbWmYMYg..8yY8J7shI54qE7Sv3dJKPbjtaQcR3GO",
-        "fullname": null,
-        "roles": [
-            "user"
-        ],
-        "id": "628fb16f9bf5c"
-    },
-    "628feb1da6b21": {
-        "username": "mark",
-        "password": "$2y$10$FWH\/DHbFrksU4C1l\/8xeruq2LULvtvWI3KjhtyT5U7kQ.HqcAO7Bi",
-        "fullname": null,
-        "roles": [
-            "user"
-        ],
-        "id": "628feb1da6b21"
-    },
-    "628febc247606": {
+    "62972bb4ba92b": {
         "username": "admin",
-        "password": "$2y$10$LmRGQqvs6n78\/cEaWNLLo.rhpNcBB7bTmIpQ31IZqxjwNSQf60g3O",
-        "fullname": null,
+        "password": "$2y$10$08a9MD2OstrQNi4LfJKQ.eplLUr\/TH6ggbxTpZS7TLCQ8re5l5wIm",
+        "email": "admin@valami.com",
         "roles": [
-            "admin",
-            "user"
+            "user",
+            "admin"
         ],
-        "id": "628febc247606"
+        "id": "62972bb4ba92b"
     }
 }

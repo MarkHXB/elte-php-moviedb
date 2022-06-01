@@ -20,7 +20,6 @@ if (count($_POST) !== 0) {
 
     if (count($errors) === 0) {
         $current_user = $auth->authenticate($data["username"], $data["password"]);
-        echo "nem";
         if ($current_user) {
             $auth->login($current_user);
             header("Location: home.php");

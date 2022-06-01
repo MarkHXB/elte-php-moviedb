@@ -4,14 +4,17 @@ require_once("classes/storage.php");
 require_once("classes/auth.php");
 require_once("classes/series.php");
 require_once("classes/validation.php");
+require_once("classes/history.php");
 
 // index.php
 // start session
-session_start();
-
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 // auto-loading controllers and models
 $series = new Series(new Storage(new JsonIO("storage/series.json")));
 $auth = new Auth(new Storage(new JsonIO("storage/users.json")));
+$history = new History(new Storage(new JsonIO("storage/history.json")));
 
 //init functions
 function getIsEmpty()

@@ -19,11 +19,12 @@ class Auth
         $user = [
             'username'  => $data['username'],
             'password'  => password_hash($data['password'], PASSWORD_DEFAULT),
-            'fullname'  => $data['fullname'],
+            'email'  => $data['email'],
             "roles"     => ["user"],
         ];
         return $this->user_storage->add($user);
     }
+
 
     public function user_exists($username)
     {

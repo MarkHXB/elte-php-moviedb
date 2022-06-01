@@ -1,56 +1,164 @@
 {
     "1": {
-        "id": "series1",
-        "year": 1987,
-        "title": "Egy r\u00e9m rendes csal\u00e1d",
+        "id": "1",
+        "year": "1987",
+        "title": "Egy r\u00e9m rendes csal\u00e1d123",
         "plot": "A sorozat f\u0151szerepl\u0151je Al Bundy, egy szerencs\u00e9tlen papucsf\u00e9rj a kor\u00e1bban sikeres k\u00f6z\u00e9piskolai amerikaifutball-j\u00e1t\u00e9kos, aki n\u0151icip\u0151-bolti elad\u00f3k\u00e9nt dolgozik.",
         "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/hu\/thumb\/f\/f6\/MWC_1.jpg\/375px-MWC_1.jpg",
-        "episodes": [
-            {
-                "1": {
-                    "id": "1",
-                    "date": "1987-04-05",
-                    "title": "\u00daj szomsz\u00e9dok",
-                    "plot": "\u00daj szomsz\u00e9dok k\u00f6lt\u00f6znek Al \u00e9s Peggy mell\u00e9, akiknek l\u00e1tsz\u00f3lag t\u00f6k\u00e9letes a h\u00e1zass\u00e1guk, a Bundyk azonban gondoskodnak arr\u00f3l, hogy a harm\u00f3nia gyorsan a m\u00falt\u00e9 legyen.",
-                    "rating": "7.8"
-                }
+        "episodes": {
+            "6291f5e12247e": {
+                "year": "1901",
+                "title": "123213",
+                "plot": "sdfadsf",
+                "rating": "2",
+                "id": "6291f5e12247e"
             },
-            {
-                "2": {
-                    "id": "2",
-                    "date": "1987-04-12",
-                    "title": "Peggy \u00e9s a stewardesek",
-                    "plot": "Marcy aj\u00e1nl\u00e1s\u00e1ra Peggy egy \u00faj \u00e9trendet szeretne bevezetni otthon, aminek Al nagyon nem \u00f6r\u00fcl.",
-                    "rating": "6.5"
-                }
+            "6291f6c829040": {
+                "year": "123213",
+                "title": "tesztet",
+                "plot": "qewre",
+                "rating": "7.8",
+                "id": "6291f6c829040"
+            },
+            "6291f87e2c8d1": {
+                "year": "20000",
+                "title": "valami \u00e9rtelmes c\u00edm",
+                "plot": "dsadfsfsdf",
+                "rating": "6",
+                "id": "6291f87e2c8d1"
             }
-        ]
+        }
     },
-    "2": {
-        "id": "series2",
-        "year": 2021,
-        "title": "Nyerd meg az \u00e9leted",
-        "plot": "456 anyagi probl\u00e9m\u00e1kkal k\u00fcszk\u00f6d\u0151 ember megh\u00edv\u00e1st kap egy j\u00e1t\u00e9kba, melynek d\u00edja 45,6 milli\u00e1rd d\u00e9l-koreai von.",
-        "cover": "https:\/\/flixpatrol.com\/runtime\/cache\/files\/posters\/d\/ddlemu3ez0pgg93k2svnlcjcsve.webp",
-        "episodes": [
-            {
-                "1": {
-                    "id": "1",
-                    "date": "2021-09-17",
-                    "title": "Piros l\u00e1mpa, z\u00f6ld l\u00e1mpa",
-                    "plot": "Szong Gihun szerencs\u00e9tlen \u00e9letet \u00e9l, r\u00e1ad\u00e1sul egy csom\u00f3 p\u00e9nzzel tartozik uzsor\u00e1soknak is. Egyik nap a metr\u00f3\u00e1llom\u00e1son egy rejt\u00e9lyes, j\u00f3l \u00f6lt\u00f6z\u00f6tt f\u00e9rfi egy ttakcsi nev\u0171 j\u00e1t\u00e9kra invit\u00e1lja \u0151t, amellyel nyer is sz\u00e1zezer vont...",
-                    "rating": "8.9"
-                }
-            },
-            {
-                "2": {
-                    "id": "2",
-                    "date": "2021-09-17",
-                    "title": "Pokol",
-                    "plot": "Csak 201 j\u00e1t\u00e9kos maradt \u00e9letben \u00e9s k\u00f6z\u00fcl\u00fck is t\u00f6bben k\u00f6ny\u00f6r\u00f6gnek, hadd t\u00e1vozhassanak. Ez azonban lehetetlen, kiv\u00e9ve ha a j\u00e1t\u00e9kosok t\u00f6bbs\u00e9ge a befejez\u00e9s mellett voksol...",
-                    "rating": "7.2"
-                }
+    "62925f49c1edc": {
+        "year": "2022",
+        "title": "Obi Wan",
+        "plot": "Star Wars sori",
+        "cover": "https:\/\/cdn.pixabay.com\/photo\/2015\/12\/08\/15\/15\/robot-1083158_960_720.jpg",
+        "episodes": {
+            "62925ffa5e2a3": {
+                "year": "2022",
+                "title": "Egy \u00faj rem\u00e9ny",
+                "plot": "asdsadasdsadas",
+                "rating": "9.8",
+                "id": "62925ffa5e2a3"
             }
-        ]
+        },
+        "id": "62925f49c1edc"
+    },
+    "62975d02d163c": {
+        "year": "2014",
+        "title": "Szil\u00edcium-v\u00f6lgy",
+        "plot": "Az alkot\u00f3 Mike Judge, a t\u00f6rt\u00e9net f\u0151h\u0151se pedig az introvert\u00e1lt programoz\u00f3, Richard, aki bar\u00e1taival \u00fagy hat\u00e1roz, saj\u00e1t v\u00e1llalkoz\u00e1sba fog. A Szil\u00edcium-v\u00f6lgyben pedig minden es\u00e9ly meg is van a sikerhez!",
+        "cover": "https:\/\/dmdamedia.hu\/kepek\/szilicium_volgy_poster.jpg",
+        "episodes": {
+            "629761ec68b33": {
+                "year": "2014",
+                "title": "Korl\u00e1tozott funkcionalit\u00e1s\u00fa term\u00e9k",
+                "plot": "Egy sz\u00e1m\u00edt\u00f3g\u00e9pes programoz\u00f3, Richard, olyan sz\u00e1m\u00edt\u00f3g\u00e9pes algoritmust fejleszt ki, amely minden eddigin\u00e9l jobban t\u00f6m\u00f6r\u00edti a f\u00e1jlokat. Richard egy programoz\u00f3kkal teli h\u00e1zban \u00e9l, \u00e9s a Hooli nev\u0171 sz\u00e1m\u00edt\u00f3g\u00e9pes c\u00e9gnek dolgozik. Amikor Richard bemutatja az \u00f6tlet\u00e9t, Gavin Belson, a Hooli vezet\u0151je 10 milli\u00f3t aj\u00e1nl neki. M\u00edg egy m\u00e1sik milli\u00e1rdos 200 000-et aj\u00e1nl neki a c\u00e9g 5%-\u00e1\u00e9rt. Richardnak el kell d\u00f6ntenie, hogy azonnal eladja-e a c\u00e9g\u00e9t, vagy maradjon mellette, \u00e9s felhaszn\u00e1lja a Peter Gregory \u00e1ltal ny\u00fajtott finansz\u00edroz\u00e1st.",
+                "rating": "7.4",
+                "id": "629761ec68b33"
+            },
+            "6297632f6eb23": {
+                "year": "2016",
+                "title": "A doboz",
+                "plot": "Az \u00faj \u00e9s tov\u00e1bbfejlesztett Pied Piper leny\u0171g\u00f6zi Dinesh-t \u00e9s Gilfoyle-t, de aggasztja Richardot; Jared \u00e9s Erlich lakhat\u00e1si probl\u00e9m\u00e1kkal szembes\u00fcl; Gavin ellentmond\u00e1sos l\u00e9p\u00e9st javasol.",
+                "rating": "8",
+                "id": "6297632f6eb23"
+            },
+            "629764c6f2c97": {
+                "year": "2019",
+                "title": "Hooli-Hop",
+                "plot": "A sarokba szor\u00edtva Richard egy\u00fctt \u00e9rez az egykori riv\u00e1lis\u00e1val. Dinesh jobb ember szeretne lenni, annak \u00e9rdek\u00e9ben, hogy helyrehozza a rossz szerencs\u00e9j\u00e9t. A d\u00fch\u00f6s Jared, az\u00e9rt, hogy seg\u00edtsen Gwarton, vonakodva ugyan, de hajland\u00f3 egy\u00fctt dolgozni Richarddal. Monica egy drasztikus l\u00e9p\u00e9sre tesz javaslatot, aminek k\u00f6vetkezt\u00e9ben a Pied Piper csapata versenyt fut az id\u0151vel, hogy sikeresen lez\u00e1rjon egy nagy munk\u00e1t.",
+                "rating": "9",
+                "id": "629764c6f2c97"
+            },
+            "62976548a1318": {
+                "year": "2018",
+                "title": "M\u0171szaki igazgat\u00f3",
+                "plot": "Richard lelkesed\u00e9se egy m\u00e1sik c\u00e9g felel\u0151s vezet\u0151je ir\u00e1nt s\u00farl\u00f3d\u00e1s okoz a Pier Piper tagjaival. Eredetileg Jared arra buzd\u00edtotta Richardot, hogy bar\u00e1tkozzon \u00f6ssze Dan\u00e1val, egy m\u00e1sik c\u00e9g hasonl\u00f3 gondolkod\u00e1s\u00fa vez\u00e9rigazgat\u00f3j\u00e1val, azonban Richard \u00e9rdekl\u0151d\u00e9s\u00e9t Dana helyett annak kedves alvez\u00e9re kelti fel, aki arra k\u00e9szteti, hogy megk\u00e9rd\u0151jelezze a Gilfoyle ir\u00e1nti lojalit\u00e1s\u00e1t. Dinesh korl\u00e1tozott lakhat\u00e1si lehet\u0151s\u00e9gekkel szembes\u00fcl, ez\u00e9rt \u00faj szobat\u00e1rsat keres. Hamarosan sikerrel j\u00e1r.",
+                "rating": "8.2",
+                "id": "62976548a1318"
+            }
+        },
+        "id": "62975d02d163c"
+    },
+    "629784cfeff98": {
+        "year": "2015",
+        "title": "Mr. Robot",
+        "plot": "A fiatal programoz\u00f3, Elliot nappal biztons\u00e1gi szakemberk\u00e9nt dolgozik, m\u00edg az \u00e9jszak\u00e1it hackerked\u00e9ssel, \u00e9s rossz emberek lekapcsol\u00e1s\u00e1val t\u00f6lti. Az egyik \u00e9jszaka internetes t\u00e1mad\u00e1st \u00e9szlel az E(vil) Corp ellen. Amikor pr\u00f3b\u00e1lja kider\u00edteni, hogy ki a felel\u0151s a DDoS t\u00e1mad\u00e1s\u00e9rt, szembeker\u00fcl a rejt\u00e9lyes Mr. Robottal, \u00e9s annak m\u00e9g k\u00fcl\u00f6n\u00f6sebb szervezet\u00e9vel.",
+        "cover": "https:\/\/dmdamedia.hu\/kepek\/mr_robot_poster.jpg",
+        "episodes": {
+            "629789d01c17d": {
+                "year": "2015",
+                "title": "hell\u00f3_bar\u00e1tom.mov",
+                "plot": "Az MR. ROBOT-ban Elliot, aki nappal kiberbiztons\u00e1gi m\u00e9rn\u00f6k, \u00e9jjel pedig \u00f6nb\u00edr\u00e1skod\u00f3 hacker, egy titokzatos f\u00f6ldalatti csoport felb\u00e9rli, hogy puszt\u00edtsa el a c\u00e9get, amelynek v\u00e9delm\u00e9re fizetik. Elliotnak el kell d\u00f6ntenie, meddig megy el, hogy leleplezze azokat az er\u0151ket, amelyek szerinte a vil\u00e1got ir\u00e1ny\u00edtj\u00e1k (\u00e9s t\u00f6nkreteszik).",
+                "rating": "9.2",
+                "id": "629789d01c17d"
+            },
+            "62978a0e8cdc0": {
+                "year": "2019",
+                "title": "egyesek_\u00e9s_null\u00e1k.mpeg",
+                "plot": "Elliot visszautas\u00edtja Tyrell \u00e1ll\u00e1saj\u00e1nlat\u00e1t, mondv\u00e1n, hogy boldog ott, ahol most van, azaz Gideonnak dolgozik az AllSafe-n\u00e9l. Gideon megk\u00f6sz\u00f6ni neki, hogy megmentette a c\u00e9get, \u00e9s fizet\u00e9semel\u00e9st aj\u00e1nl neki. A munk\u00e1b\u00f3l hazat\u00e9rve Elliot a lak\u00e1s\u00e1ban tal\u00e1lja Darlene-t. Vonattal mennek az fsociety rakt\u00e1r\u00e1ba, ahol tal\u00e1lkozik Mr. Robottal, aki megpr\u00f3b\u00e1lja meggy\u0151zni, hogy folytass\u00e1k a k\u00f6z\u00f6sen elkezdett hackel\u00e9st. Elliot azonban nem biztos benne, hogy ezt tov\u00e1bb akarja folytatni, \u00e9s m\u00e9g azt is fontolgatja, hogy feladja \u0151ket.",
+                "rating": "8.5",
+                "id": "62978a0e8cdc0"
+            },
+            "62978a52ec132": {
+                "year": "2019",
+                "title": "d3bug.mkv",
+                "plot": "Tyrellnek nem adnak es\u00e9lyt arra, hogy meggy\u0151zze a c\u00e9get, \u0151 a megfelel\u0151 szem\u00e9ly Colby hely\u00e9re. Hogy n\u00e9mi vigasztal\u00e1shoz jusson, fizet valakinek, hogy verj\u00e9k meg. Ezut\u00e1n k\u00f6zelebb ker\u00fcl a f\u0151n\u00f6ke titk\u00e1rn\u0151j\u00e9hez, hogy inform\u00e1ci\u00f3kat szerezzen az \u00faj CTO-r\u00f3l. Elliot a k\u00f3rh\u00e1zban \u00e9bred, ahol Krista \u00e9s Shayla figyel r\u00e1. Meg kell gy\u0151znie Krist\u00e1t, hogy j\u00f3l van, de ez nem okoz gondot, hiszen k\u00f6nnyen bejut a k\u00f3rh\u00e1z adatb\u00e1zis\u00e1ba. Elliot \u00fagy gondolja, hogy az fsociety v\u00e9gzett vele, \u00e9s azt tervezi, hogy \u00faj \u00e9letet kezd - egy norm\u00e1lis \u00e9letet. Ez\u00e9rt mag\u00e1val viszi Shayl\u00e1t egy vacsor\u00e1ra Gideonhoz. Mivel az fsociety \u00fajabb inform\u00e1ci\u00f3kat fed fel Colbyr\u00f3l, Elliot megtudja, hogy a j\u00e1t\u00e9knak m\u00e9g nincs v\u00e9ge. K\u00f6zben Ollie-t megzsarolj\u00e1k.",
+                "rating": "8.1",
+                "id": "62978a52ec132"
+            },
+            "62978a9a772a8": {
+                "year": "2019",
+                "title": "da3m0ns.mp4",
+                "plot": "Mik\u00f6zben Elliot megpr\u00f3b\u00e1lja \u00e1tv\u00e9szelni a morfium elvon\u00e1si t\u00fcneteit, \u00e9s tiszt\u00e1ba j\u00f6n, megpr\u00f3b\u00e1lja megtal\u00e1lni a m\u00f3dj\u00e1t, hogy egyszer \u00e9s mindenkorra elpuszt\u00edtsa az E Corp-ot. R\u00e1j\u00f6n, hogy neki \u00e9s az fsociety-nek tal\u00e1n van es\u00e9lye, de az id\u0151korl\u00e1tok nagyon szorosak. Mivel az \u0151 \u00f6tlete volt, Elliot \u00fagy d\u00f6nt, hogy neki kell az Ac\u00e9lhegyre mennie. Az \u00e1llapota azonban n\u00e9h\u00e1ny \u00f3ra alatt rosszabbra fordul, \u00e9s a hallucin\u00e1ci\u00f3i is egyre s\u00f6t\u00e9tebbek \u00e9s intenz\u00edvebbek lesznek. A bar\u00e1tj\u00e1ban csal\u00f3dott Angela \u00fagy d\u00f6nt, hogy a probl\u00e9m\u00e1it \u00fagy kezeli, hogy elfogad egy kis seg\u00edts\u00e9get Shayl\u00e1t\u00f3l. Darlene \u00e9s Trenton megpr\u00f3b\u00e1lj\u00e1k maguk mell\u00e9 \u00e1ll\u00edtani a k\u00ednaiakat.",
+                "rating": "7.9",
+                "id": "62978a9a772a8"
+            },
+            "62978ac003875": {
+                "year": "2019",
+                "title": "3xpl0its.wmv",
+                "plot": "Elliot, Romero \u00e9s Mobley az Ac\u00e9lhegyre tart. Elliot Mobley seg\u00edts\u00e9g\u00e9vel megy be, aki egy hamis Wikipedia-oldalt hoz l\u00e9tre a nev\u00e9ben. Elliot tal\u00e1lkozik Tyrell Wellickkel, akivel egy\u00fctt eb\u00e9del. Ez t\u00f6k\u00e9letes alkalom Elliot sz\u00e1m\u00e1ra, hogy teljes\u00edtse k\u00fcldet\u00e9s\u00e9t. Ekkor tudja meg Elliot, hogy Tyrell a nyom\u00e1ban van. Angela v\u00e9gleg elhagyja Olivert, \u00e9s visszat\u00e9r az apj\u00e1hoz. Tyrell \u00e9s Johanna megl\u00e1togatj\u00e1k Knowle-\u00e9kat. Darlene elvesz\u00edti K\u00edn\u00e1t.",
+                "rating": "8.4",
+                "id": "62978ac003875"
+            },
+            "62978aebd0941": {
+                "year": "2019",
+                "title": "br4ve-trave1er.asf",
+                "plot": "Vera t\u00faszul ejti Shayl\u00e1t a b\u00e1tyj\u00e1val, hogy befoly\u00e1solja Elliotot, hogy meghekkelje \u0151t a b\u00f6rt\u00f6nb\u0151l, Elliot pedig k\u00e9ts\u00e9gbeesetten pr\u00f3b\u00e1l egy hat\u00e9kony tervet kital\u00e1lni; Angela \u00fcgyv\u00e9dekkel veszi fel a kapcsolatot az anyja hal\u00e1l\u00e1val kapcsolatban, \u00e9s Elliotot keresi fel tan\u00e1cs\u00e9rt; Scott tartja mag\u00e1t Tyrell f\u00f6l\u00f6tt.",
+                "rating": "9.1",
+                "id": "62978aebd0941"
+            },
+            "62978b11ceede": {
+                "year": "2019",
+                "title": "v1ew-s0urce.flv",
+                "plot": "Elliot eml\u00e9kszik arra, amikor el\u0151sz\u00f6r tal\u00e1lkozott Shayl\u00e1val. Angela r\u00e1veszi az \u00fcgyv\u00e9dj\u00e9t, hogy szervezzen meg egy tal\u00e1lkoz\u00f3t k\u00f6zte \u00e9s Colby k\u00f6z\u00f6tt. Colby meg akarja vesztegetni, de Angela nem h\u00e1tr\u00e1l meg. A ravasz Colbyt\u00f3l azonban nem azt kapja, amit szeretne, de \u00edgy is siker\u00fcl leny\u0171g\u00f6znie. Darlene egy b\u00e1rban besz\u00e9lget Mr. Robottal. Ezut\u00e1n Mr. Robot megl\u00e1togatja Romer\u00f3t. Tyrell kir\u00fag n\u00e9h\u00e1ny embert a csapat\u00e1b\u00f3l, \u00e9s l\u00e9p\u00e9seket tesz Ms Knowles fel\u00e9. Gideon att\u00f3l f\u00e9l, hogy az All Safe-nak van-e j\u00f6v\u0151je. Elliot v\u00e1ratlan \u00e9s \u0151szinte l\u00e1togat\u00e1st tesz a pszichi\u00e1ter\u00e9n\u00e9l.",
+                "rating": "8.4",
+                "id": "62978b11ceede"
+            },
+            "62978b6326ba1": {
+                "year": "2019",
+                "title": "wh1ter0se.m4v",
+                "plot": "Az All Safet felt\u00f6rt\u00e9k.  Elliot 3 perces tal\u00e1lkoz\u00f3t tart Whiterose-zal. Elmondj\u00e1k neki, hogy figyelmetlen volt Gideonnal, de ezt hamar helyrehozza. Tyrell tal\u00e1lkozik Mr. Robottal. Azt\u00e1n megl\u00e1togatja \u0151t k\u00e9t NYPD nyomoz\u00f3. Ekkor Johanna megsebes\u00edti mag\u00e1t, hogy megakad\u00e1lyozza Tyrell lebuk\u00e1s\u00e1t. Elliot v\u00e9gre eml\u00e9kszik az igazi szem\u00e9lyazonoss\u00e1g\u00e1ra.",
+                "rating": "9.4",
+                "id": "62978b6326ba1"
+            },
+            "62978b930fbae": {
+                "year": "2019",
+                "title": "m1rr0r1ng.qt",
+                "plot": "Angela felmond az Allsafe-n\u00e9l, \u00e9s \u00e1ll\u00e1saj\u00e1nlatot kap Colbyt\u00f3l. Mr. Robot beugrik Elliot lak\u00e1s\u00e1ba, ami felid\u00e9zi Elliot gyermekkori eml\u00e9keit. Tyrellt elbocs\u00e1tj\u00e1k az Evil Corp-t\u00f3l, \u00e9s meglepet\u00e9sszer\u0171en megl\u00e1togatja Elliotot, aki m\u00e1r nem tudja megmondani, mi a val\u00f3s\u00e1g \u00e9s mi nem.",
+                "rating": "9.2",
+                "id": "62978b930fbae"
+            },
+            "62978bf19b651": {
+                "year": "2019",
+                "title": "zer0-day.avi",
+                "plot": "Elliot mindenhol Tyrellt keresi, \u00e9s kiborul, amikor a vil\u00e1g k\u00e1oszba borul; Angela az \u00faj munkahely\u00e9n tan\u00faja lesz valami traumatikusnak, \u00e9s r\u00e9szt vesz egy sajt\u00f3t\u00e1j\u00e9koztat\u00f3n a vez\u00e9rigazgat\u00f3val; a fsociety el\u00e9geti a bizony\u00edt\u00e9kokat, \u00e9s \u00fcnnepel; Lenny tal\u00e1lkozik Krist\u00e1val Elliotr\u00f3l; \"...ahogy n\u00e9zte, ahogy R\u00f3ma \u00e9g.\".",
+                "rating": "8.7",
+                "id": "62978bf19b651"
+            }
+        },
+        "id": "629784cfeff98"
     }
 }
